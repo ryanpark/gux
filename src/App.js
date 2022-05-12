@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import dtipDweb from './images/dtipDweb.png';
 import dtipMweb from './images/dtipMweb.png';

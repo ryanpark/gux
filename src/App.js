@@ -1,15 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-
+import dtipDweb from './images/dtipDweb.png';
+import dtipMweb from './images/dtipMweb.png';
+import itrcDweb from './images/itrcDweb.png';
+import buttons from './images/button.png';
 function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
-				<img src={logo} className='App-logo' alt='logo' />
-				<p>GUX in the bitch's house</p>
-				<a className='App-link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
-					Learn React
-				</a>
+				<p>Ryan Park</p>
+				<img src={dtipMweb} alt='logo' />
+				<p></p>
+				<img src={dtipDweb} alt='logo' />
+				<img src={itrcDweb} alt='logo' />
+				<img src={buttons} alt='logo' />
 			</header>
 		</div>
 	);

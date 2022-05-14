@@ -7,6 +7,14 @@ img {
 	object-fit: cover;
 }
 
+.flex-container {
+	display: flex;
+}
+@media (max-width: 12450px) {
+	.flex-container {
+		display: block;
+	}
+}
 .App-logo {
 	height: 40vmin;
 	pointer-events: none;
@@ -40,4 +48,7 @@ img {
 	to {
 		transform: rotate(360deg);
 	}
+}
+p {
+	font-size: 1.15rem;
 }

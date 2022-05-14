@@ -4,29 +4,32 @@ import dtipMweb from './images/dtipMweb.png';
 import itrcDweb from './images/itrcDweb.png';
 import buttons from './images/button.png';
 import gtau from './images/gumtree.png';
+import E from './E';
 
 function App() {
 	return (
 		<div className='App'>
-			<header className='App-header'>
-				<p>
-					G'day, I'm Ryan Park 👋 <br />
-					I'm a UI Designer & Developer Sydney, Australia.
-					<br /> I'm passionate about User Experience, and building products from concept to delivery.
-				</p>
+			<div className='App-header container'>
+				<div className='intro'>
+					<p>
+						G'day, I'm Ryan Park 👋 <br />
+						I'm a UI Designer & Developer Sydney, Australia.
+						<br /> I'm passionate about User Experience, and building products from concept to delivery.
+					</p>
+				</div>
+
 				<div className='flex-container'>
 					<img src={dtipMweb} alt='logo' />
 					<img src={dtipDweb} alt='logo' />
+					<E> Train location systems - Design </E>
 				</div>
-
-				<p></p>
-
 				<img src={itrcDweb} alt='logo' />
+				<E> Reward recognition program - Design, Development </E>
 				<img src={buttons} alt='logo' />
-				<p></p>
+				<E> Button Component - Design </E>
 				<img src={gtau} alt='gumtree' />
-				<p></p>
-			</header>
+				<E> Gumtree Australia - Development </E>
+			</div>
 		</div>
 	);
 }

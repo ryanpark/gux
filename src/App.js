@@ -17,7 +17,7 @@ function App() {
 					<p>
 						I'm a UI/UX Engineer & Designer Sydney, Australia.
 						<br />
-						I'm passionate about User Experience and building UI component.
+						I'm passionate about User Experience and building User Interface.
 					</p>
 				</div>
 
